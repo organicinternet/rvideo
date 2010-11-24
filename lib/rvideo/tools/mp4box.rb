@@ -1,6 +1,6 @@
 module RVideo
   module Tools
-    class MP4Box
+    class Mp4Box
       include AbstractTool::InstanceMethods
       attr_reader :raw_metadata
 
