@@ -1,11 +1,11 @@
 module RVideo
   module Tools
-    class MP4Box
+    class NeroAacEnc
       include AbstractTool::InstanceMethods
       attr_reader :raw_metadata
 
       def tool_command
-        'MP4Box'
+        'neroAacEnc'
       end
       
       private
